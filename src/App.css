@@ -1,10 +1,10 @@
-
 .App-header {
   background-color: #020079;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   font-size: calc(10px + 5vmin);
   color: white;
 }
@@ -18,6 +18,8 @@
   border-radius: 30px;
   font-size: large;
   padding: 10px;
+  margin-bottom: 30px;
+  text-align: justify;
 }
 
 #add {
@@ -29,4 +31,41 @@
   padding-left: 20px;
   padding-right: 20px;
   height: 20px;
+  font-size: 30px;
+}
+
+.child {
+  max-height: 180px;
+  overflow: hidden;
+  border-color: black;
+}
+
+#form {
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  color: white;
+  margin: auto;
+}
+
+#iblog {
+  min-height: 100vh;
+  background-color: #020079;
+  padding: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  textarea {
+    height: 200px;
+  }
+}
+
+#title {
+  border-radius: 20px;
+}
+
+#text {
+  border-radius: 20px;
+  padding: 5px;
 }
